@@ -1,0 +1,60 @@
+nav img{
+    width: 150px;
+}
+
+#masvendidos{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;    
+}
+
+nav{
+    border-radius: 5px;
+    background-color: rgb(229, 228, 228);
+    box-shadow: 1px 6px 8px 6px rgb(131, 131, 131);
+    margin: 30px;
+}
+
+.card{ 
+    border-radius: 20px;
+    background-color: whitesmoke;
+    box-shadow: 1px 6px 8px 6px #ccc;
+    margin: 30px;
+}
+
+.card:hover{
+    scale: 1.03;
+    transition: .4s;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    padding:20px ;
+    text-align: center;
+
+}
+body{
+    background-image: linear-gradient(to top, rgb(229, 229, 229) , rgb(196, 196, 196));
+}
+
+.card-title{
+    margin-top: -50px;
+    text-align: end;
+}
+.card-text{
+margin-top: 15px;
+}
+
+.btn{
+    background-color: rgb(7, 112, 19);
+    border: none;
+    width: 100%;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: rgb(15, 145, 4);
+    color: rgb(222, 197, 9);
+ 
+}
