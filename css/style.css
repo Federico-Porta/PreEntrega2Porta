@@ -8,17 +8,8 @@ nav img{
     text-align: center;    
 }
 
-section{
-    display: flex;
-    justify-content: center;
-}
 
-article{
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    
-}
+
 
 .navbar{
     border-radius: 5px;
